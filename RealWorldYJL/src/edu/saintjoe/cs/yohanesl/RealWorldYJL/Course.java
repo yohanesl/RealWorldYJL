@@ -25,7 +25,11 @@ public class Course {
 			room = newRoom;
 		}
 		
-		
+		// Mutator put in for the sake of my CMP112 students
+		public void setStudent(Student newStudent, int whereAt) {
+			students[whereAt] = newStudent;
+			
+		}
 		public String toString() {
 			
 			String output = "";
