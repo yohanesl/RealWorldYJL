@@ -13,7 +13,10 @@ public class StudentDriver {
 		cmp112.students[studentCount++] = nextStudent;
 		nextStudent = new Student("Jude Brace"' "M", 1, 20);
 		cmp112.students[studentCount++] = nextStudent;
-		nextStudent = new Student("Zach Bobos")
+		nextStudent = new Student("Zach Bobos", "M", 1, 19);
+		cmp112.students[studentCount++] = nextStudent;
+		System.out.print(ln(cmp112.toString());
+		
 
 	}
 
