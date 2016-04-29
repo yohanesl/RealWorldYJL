@@ -24,8 +24,26 @@ public class Student {
 		return name; 
 	}
 	public void setAge(int newAge) {
+		age = newAge;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setGender(String newGender) {
+		gender = newGender;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setClassYr(int year) {
+		classYr = year;
+	}
+	public int getClassYr() {
+		return classYr;
+	}
+	public String toString() {
+		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age);
 		
-
 	}
 
 }
