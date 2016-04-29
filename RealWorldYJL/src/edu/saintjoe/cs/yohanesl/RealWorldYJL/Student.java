@@ -9,7 +9,7 @@ public class Student {
 	/* Data members above, methods below */
 	
 	// Right now a "full data" constructor only
-	public Student newName, String newGender, int newClassYr, int newAge) {
+	public Student(String newName, String newGender, int newClassYr, int newAge) {
 		name = newName;
 		gender = newGender;
 		classYr = newClassYr;
