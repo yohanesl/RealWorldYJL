@@ -9,13 +9,13 @@ public class StudentDriver {
 		
 		Course cmp112 = new Course("CMP112A", "B. Capouch", "Core 125");
 		
-		Student next Student = new Student("Jared Alt", "M", 1, 19);
+		Student nextStudent = new Student("Jared Alt", "M", 1, 19);
 		cmp112.students[studentCount++] = nextStudent;
-		nextStudent = new Student("Jude Brace"' "M", 1, 20);
+		nextStudent = new Student("Jude Brace", "M", 1, 20);
 		cmp112.students[studentCount++] = nextStudent;
 		nextStudent = new Student("Zach Bobos", "M", 1, 19);
 		cmp112.students[studentCount++] = nextStudent;
-		System.out.print(ln(cmp112.toString());
+		System.out.println(cmp112.toString());
 		
 
 	}
